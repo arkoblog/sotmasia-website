@@ -73,8 +73,10 @@ html {
 }
 
 #accent-intro .when-where {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 #accent-intro .when-where strong {
