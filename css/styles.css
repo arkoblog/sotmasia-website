@@ -125,11 +125,19 @@ html {
     padding-top: 70px;
     padding-bottom: 100px;
     background: #fff;
+}
+
+.single-section-content h3 {
     font-family: 'Varela Round', sans-serif;
 }
 
+
 .description {
     margin-top: 20px;
+}
+
+.description h4 {
+    font-family: 'Varela Round', sans-serif;
 }
 
 
