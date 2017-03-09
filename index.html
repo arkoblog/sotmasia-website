@@ -11,12 +11,13 @@
 
     <title>State of the Map 2017</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet"> 
+    <!-- Load google web fons -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +35,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container ">
-            <div class="navbar-header  page-scroll">
+            <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -64,76 +65,101 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Section -->
-    <section id="intro" class="logo-section">
-        <div class="">
-        <h1 class="logo">SOTM <br>ASIA <br>LOGO <br> HERE</h1>
-        </div>
-    </section>
+    <!-- A wrapper div is added to keep the footer fixed when the content is small, and send it to the bottom when the content > viewport height -->
+    <div class="wrapper">
+        <!-- Intro Section -->
+        <section id="logo" class="logo-section">
+            <div class="">
+                <h1 class="logo">SOTM <br>ASIA <br>LOGO <br> HERE</h1>
+            </div>
+        </section>
 
-    <!-- Intro Section -->
-    <section id="hero" class="accented-intro-section">
-    <div class="container">
+        <!-- Intro Section -->
+        <section id="accent-intro" class="accent-intro">
+            <div class="container">
                 <h2>Mapping the world <span class="heart">♥</span> together</h2>
                 <br>
-                        <p id="intro-blurb">State of the Map Asia is an event for
-                        <strong>all mappers and OpenStreetMap users</strong>.
-                        Enjoy two days in Nepal with talks, discussions, and workshops
-                        all around the free and open map of the world.</p>
-              <br>
-              <br>
-              <br>
+                <p id="accent-intro-blurb">State of the Map Asia is an event for
+                    <strong>all mappers and OpenStreetMap users</strong>. Enjoy two days in Nepal with talks, discussions, and workshops all around the free and open map of the world.</p>
+                <br>
+                <br>
+                <br>
 
-              <div class="row">
-                  
-              <div class="col-lg-6">
-               <p class="when-where"><strong>When?</strong> September 23rd and 24th, 2016</p>
-              </div>
-              <div class="col-lg-6">
-                <p class="when-where"><strong>Where?</strong> Kathmandu, Nepal</p>
-              </div>
-              </div>
-              
- </br> </br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="when-where"><strong>When?</strong> September 23rd and 24th, 2017</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="when-where"><strong>Where?</strong> Kathmandu, Nepal</p>
+                    </div>
+                </div>
 
+
+            </div>
+        </section>
+
+        <!-- Intro Section -->
+        <section id="sponsors" class="sponsors">
+            <div class="container">
+                <h2>Sponsors</h2>
+                <div class="row sponsor-image-row">
+                    <br>
+                    <div class="col-lg-2  sponsor-image-col">
+                        <p><a href="mailto:sotmasia2017@gmail.com">Your logo here</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-lg-offset-1 sponsor-image-col">
+                        <p><a href="mailto:sotmasia2017@gmail.com">Your logo here</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-lg-offset-1 sponsor-image-col">
+                        <p><a href="mailto:sotmasia2017@gmail.com">Your logo here</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-lg-offset-1 sponsor-image-col">
+                        <p><a href="mailto:sotmasia2017@gmail.com">Your logo here</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="push"></div>
     </div>
-    </section>
 
-    <!-- Intro Section -->
-    <section id="intro" class="sponsors-section">
-        <div class="container">
-            <h2>Sponsors</h2>
-        </div>
-    </section>
-
-    <footer class="footer">
+    <footer class="footer navbar-static-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
                 </div>
                 <div class="col-md-3">
-                        <ul>
-                            <li><a href="">Program</a></li>
-                        </ul>
-                        <ul>
-                            <li><a disabled="disabled" href="">Venue</a></li>
-                        </ul>
+                    <ul>
+                        <li><a href="program.html">Program</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a disabled="disabled" href="">Venue</a>
+                        </li>
+                    </ul>
 
                 </div>
                 <div class="col-md-3">
-                        <ul>
-                            <li><a disabled="disabled" href="">Scholarships</a></li>
-                        </ul>
-                        <ul>
-                            <li><a disabled="disabled" href="">Social events</a></li>
-                        </ul>
-                    
+                    <ul>
+                        <li><a disabled="disabled" href="">Scholarships</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a disabled="disabled" href="">Social events</a>
+                        </li>
+                    </ul>
+
 
                 </div>
                 <div class="col-md-3">
-                        <ul>
-                            <li><a  href="">Code of conduct</a></li>
-                        </ul>
+                    <ul>
+                        <li><a href="code-of-conduct.html">Code of conduct</a>
+                        </li>
+                    </ul>
 
                 </div>
             </div>

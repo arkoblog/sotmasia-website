@@ -1,0 +1,177 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/*Wrapper styling*/
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+
+
+/*Responsiveness handlers*/
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/*Navbar Styling*/
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/*Logo Section*/
+.logo-section {
+    padding-top: 110px;
+    padding-bottom: 60px;
+    text-align: center;
+    background: #fff;
+}
+
+.logo {
+    font-size:5em;
+    font-family: 'Varela Round', sans-serif;
+    vertical-align: middle;
+    color:#ccc;
+}
+
+/*Accent Intro section*/
+.accent-intro {
+    padding:  60px 20px;
+    background: #f8f8f8;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#accent-intro .when-where {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#accent-intro .when-where strong {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: #888;
+  text-transform: uppercase;
+}
+
+#accent-intro-blurb {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#accent-intro-blurb strong {
+  font-weight: normal;
+  color: #888;
+}
+
+/*Sponsors section*/
+.sponsors {
+    padding:  20px 20px 70px;
+    background: #fff;
+}
+
+.sponsors h2 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.sponsor-image-col {
+    padding:15px;
+    border: 3px dashed #ccc;
+    border-radius: 10px;
+    text-align: center;
+    margin-top:15px;
+}
+
+.sponsor-image-row {
+    padding-left:10px;
+}
+
+
+
+/*Programs and Code of Conduct Section*/
+.single-section-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #fff;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+
+
+/*Footer Section*/
+.footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.footer ul  {
+    list-style: none;
+}
+
+.footer li {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.footer a {
+    color:#888;
+    font-weight: 500;
+}
+
+.footer, .push {
+    min-height: 120px; /* .push must be the same height as .footer */
+}
+
+
+a[disabled=disabled] {
+    pointer-events: none;
+    color:#ccc;
+}
+
+
+.test {
+     border: 2px solid red;
+}
+
+
+
+
+
+
