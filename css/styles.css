@@ -32,7 +32,7 @@ html {
 /*Responsiveness handlers*/
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 5px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -122,7 +122,7 @@ html {
 
 /*Programs and Code of Conduct Section*/
 .single-section-content {
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 100px;
     background: #fff;
     font-family: 'Varela Round', sans-serif;
